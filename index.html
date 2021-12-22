@@ -1,14 +1,49 @@
 <!DOCTYPE html>
-<html>
-	<body>
+<html lang="en">
+	<style>
+		p2 {position: absolute;
+			color: red;
+			left: 100px;
+			top: 150px;}
 
-	<p>
-		WEBSITE
-	</p>
+		p3 {color: blue;}
 
-	<p>
-		Jaja
-	</p>
+		.flash {
+				   -webkit-animation-name:flash;
+				   -webkit-animation-duration:0.2s;
+				   -webkit-animation-iteration-count:infinite;
+				   -webkit-animation-timing-function:ease-in-out;
+				   -webkit-animation-direction:alternate;
+				}
+
+@-webkit-keyframes flash  {
+   from {
+      color:red;
+   }
+   
+   to {
+      color:yellow;
+   }
+
+}
+
+	</style>
+
+	<body translate="no">
+		<a href="html/wheel.html"/> Tha wheel</a>
+
+		<p class="flash">
+			Test
+			<p2>
+				Beste panna cotta ooit verkiezing
+			</p2>
+		</p>
+
+		<p>
+			<p3>
+				Klik op spin tha wheel!!!!
+			</p3>
+		</p>
 
 	</body>
 </html>
